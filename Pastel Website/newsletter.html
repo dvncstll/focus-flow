@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">🌸 Focus & Flow</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="newsletter-container">
+        <h2>Join Our Newsletter</h2>
+        Stay ahead in productivity! <br>
+            Subscribe to <strong>Focus & Flow</strong> and receive expert insights, time management tips, and exclusive resources straight to your inbox. <br><br>
+            Be the first to access free tools, templates, and motivational content designed to help you achieve your goals effortlessly. <br><br>
+        
+        <form id="newsletter-form">
+            <input type="email" id="email-input" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+        <p id="confirmation-message" style="display: none; color: #8AAAE5; font-weight: bold; margin-top: 10px;">
+            ✅ Thank you for subscribing!
+        </p>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("newsletter-form").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevents page refresh
+                document.getElementById("confirmation-message").style.display = "block"; // Show success message
+                document.getElementById("email-input").value = ""; // Clear input field
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBF2; /* Light pastel yellow */
+    color: #333;
+    }
+    
+    /* Navbar */
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #FCE1E4; /* Soft pastel pink */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo {
+    font-size: 22px;
+    font-weight: bold;
+    }
+    
+    .nav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .nav-links li {
+    margin: 0 15px;
+    }
+    
+    .nav-links a {
+    text-decoration: none;
+    color: #8AAAE5; /* Soft pastel blue */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+    }
+    
+    .nav-links a:hover {
+    background-color: #A8D5BA; /* Light pastel green */
+    color: white;
+    }
+    
+    /* Search Bar */
+    .search-bar {
+    display: flex;
+    align-items: center;
+    }
+    
+    .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    }
+    
+    .search-bar button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+    }
+    
+    /* Hero Section */
+    .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    }
+    
+    .hero-text {
+    max-width: 50%;
+    }
+    
+    .hero-text h1 {
+    font-size: 36px;
+    color: #8AAAE5; /* Soft pastel blue */
+    }
+    
+    .hero-text p {
+    color: #A8D5BA; /* Light pastel green */
+    font-size: 18px;
+    }
+    
+    .buttons {
+    margin-top: 20px;
+    }
+    
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #FFB6B9; /* Soft coral pink */
+    border-radius: 8px;
+    transition: 0.3s;
+    }
+    
+    .btn-outline {
+    background: none;
+    color: #FFB6B9;
+    border: 2px solid #FFB6B9;
+    }
+    
+    .btn:hover {
+    background-color: #F4978E; /* Darker coral */
+    }
+    
+    .btn-outline:hover {
+    background-color: #FFB6B9;
+    color: white;
+    }
+    
+    /* Hero Image */
+    .hero-image img {
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Features Section */
+    .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #FCE1E4; /* Soft pastel pink */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-box h3 {
+    color: #8AAAE5; /* Soft pastel blue */
+    }
+    
+    .feature-box p {
+    font-size: 16px;
+    color: #555;
+    }
+
+    
+/* Centering Images with Captions */
+.image-container {
+    text-align: center; /* Centers the image and caption */
+    margin: 20px auto; /* Adds space around */
+}
+
+.image-container img {
+    max-width: 100%; /* Makes sure image is responsive */
+    height: auto;
+    width: 300px; /* Adjust width as needed */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+}
+
+.caption {
+    font-size: 16px;
+    color: #555; /* Soft gray text */
+    margin-top: 10px;
+    font-style: italic;
+}
+/* Centering the Subscription Form */
+.newsletter-container {
+    text-align: center; /* Centers the content */
+    background-color: #FCE1E4; /* Soft pastel pink */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Adjust width as needed */
+    margin: 20px auto; /* Centers the container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering the Form */
+.newsletter-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+}
+
+/* Styling Input Field */
+.newsletter-container input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling Subscribe Button */
+.newsletter-container button {
+    padding: 10px 15px;
+    background-color: #FFB6B9; /* Soft coral pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newsletter-container button:hover {
+    background-color: #F4978E; /* Darker coral */
+}
